@@ -2,9 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test2
+  links:
+    - url: https://github.com/chaithanya-ki/test2
+      title: test2 GitHub
+      icon: code
   annotations:
     github.com/project-slug: chaithanya-ki/test2
 spec:
-  type: other
+  type: service
   lifecycle: unknown
-  owner: User
+  owner: guests
